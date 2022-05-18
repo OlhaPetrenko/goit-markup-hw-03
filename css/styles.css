@@ -1,0 +1,232 @@
+/*  основной цвет текста заголовков #212121 */
+/* вторичный цвет текста текст #757575 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* студио в хедере #000000; */
+/* цвет фона основной #E5E5E5 */
+/* цвет секции Team #F5F4FA */
+
+:root{
+    --primary-text-color:#212121;
+    --secondary-text-color:#757575;
+    --accent-color:#2196F3;
+    --primery-background-color:#FFFFFF;
+}
+
+body {
+  background-color: var(--primery-background-color);
+  color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+/* Utils */
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* Logo */
+.logo{
+    color: #000000 ;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;          
+}
+
+.logo span{
+    color: var(--accent-color);
+}
+
+/* Site nav */
+.site-nav .link,
+.contact-nav .link{
+    color: var(--primary-text-color);
+
+    font-weight: 500;    
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contact-nav .link{
+    color: var(--secondary-text-color);      
+}
+
+.site-nav .link:hover,
+.contact-nav .link:hover,
+.site-nav .link:focus,
+.contact-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+    color: #FFFFFF;
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;          
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero .button {
+    color: #ffffff;
+    background-color: #2196F3;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
+}
+
+/* Section */
+.section-title {
+    color: var(--primary-text-color);
+   
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;    
+}
+
+/* Feature */
+.feature .title{
+    
+    font-size: 14px;
+    line-height: 1.14;    
+    text-transform: uppercase;
+}
+
+.feature .text{
+    color: var(--secondary-text-color);
+    
+    font-weight: 400;    
+    line-height: 1.71;
+}
+
+/* Team */
+.team-member .title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;           
+    text-align: center;
+    
+}
+
+.team-member .text{
+    color: var(--secondary-text-color);    
+    
+    font-size: 16px;
+    line-height: 1.19;       
+    text-align: center;
+}
+.team{
+    background-color: #F5F4FA;
+}
+
+/* Футер */
+.footer{
+    background-color: #2F303A;
+}
+.footer-logo{
+    color: #FFFFFF;
+
+    font-family: Raleway, sans-serif;    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;           
+   }
+
+.footer-logo span{
+    color: var(--accent-color);    
+}
+
+.footer-nav .adress{
+    color: #FFFFFF;
+
+    font-weight: 400;    
+    line-height: 1.71;    
+    font-style: normal;
+}
+
+.footer-nav .email,
+.footer-nav .tel{
+    color: rgba(255, 255, 255, 0.6);
+
+    font-weight: 400;    
+    line-height: 1.71;    
+    font-style: normal;
+}
+
+.footer-nav .email:hover,
+.footer-nav .email:focus,
+.footer-nav .tel:hover,
+.footer-nav .tel:focus{
+    color: var(--accent-color);
+}
+
+
+/* Examples Portfolio */
+.examples .text {
+    color: var(--secondary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+.examples .title{
+    color: var(--primary-text-color);
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+/* Button */
+.button{
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus{
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
+.button.active{
+    color: var(--primery-background-color); 
+    background-color: var(--accent-color)
+    
+}
+
+
